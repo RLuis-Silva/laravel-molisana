@@ -137,9 +137,26 @@ Route::get('/', function () {
         ],
     ];
 
-    // dd($data);
+    // creo delle varaibili array 
+    $lunghe = [];
+    $corte = [];
+    $cortissime = [];
 
-    return view('home', ['cards' => $data]);
+    foreach($data as $card){
+        if($card['tipo'] == 'lunga'){
+            $lunghe[] = $card;
+        }else if($card['tipo'] == 'corta'){
+            $corte[] = $card;
+        }else if($card['tipo'] == 'cortissima'){
+            $cortissime[] = $card;
+        }
+    }
+
+    // dd($data);
+    // return view('home', ['cards' => $data]);
+
+    // per ottenere la stampa dei prodotti divisi: associo la chiave con l'array
+    return view('home', ['lunghe' => $lunghe, 'corte' => $corte, 'cortissime' => $cortissime]);
 });
 
 
