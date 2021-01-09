@@ -14,6 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    // return view('home');
-    return view('prova provaaa, Laravel perchè mi odi?!');
+    return view('home');
+    // return view('prova provaaa, Laravel perchè mi odi?!');
 });
