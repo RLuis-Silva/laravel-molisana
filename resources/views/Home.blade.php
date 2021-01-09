@@ -10,10 +10,8 @@
         <title>Laravel</title>
     </head>
     <body>
-        <header>
-            <a href="/" class="brand">LOGO sito</a>
-        </header>
-
+        <!-- inserisco il partial: HEADER -->
+        @include('partials.header')
         <main>
             <h1>Welcome al sito!</h1>
         </main>
