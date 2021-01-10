@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+// rotta HOME
 Route::get('/', function () {
     $data = [
         [
@@ -160,6 +162,13 @@ Route::get('/', function () {
 }) -> name('home');
 
 
+// rotta news
 Route::get('/news', function () {
     return view('news');
 }) -> name('news');
+
+
+// rotta PRODOTTI
+Route::get('/prodotti', function () {
+    return view('prodotti');
+}) -> name('prodotti');
