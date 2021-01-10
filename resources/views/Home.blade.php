@@ -1,9 +1,6 @@
 
 @extends('layouts/main')
 @section('contenuto-main')
-<section class="container">
-
-</section>
 <div class="container">
     <h1>HOME PAGE- MOLISANA</h1>
     {{-- prima --}}

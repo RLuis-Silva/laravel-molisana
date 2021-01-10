@@ -4,7 +4,12 @@ body{
     font: $font-primario;
 }
 
-img{
+// header
+header img{
     width: 500px;
     // height: auto;
+}
+
+header{
+    text-align: center;
 }

@@ -10,8 +10,12 @@ body {
   font: sans-serif;
 }
 
-img {
+header img {
   width: 500px;
+}
+
+header {
+  text-align: center;
 }
 
 .cards {
@@ -27,4 +31,12 @@ img {
 
 .card img {
   width: 350px;
+}
+
+h3 {
+  margin: 10px;
+}
+
+footer {
+  text-align: center;
 }
