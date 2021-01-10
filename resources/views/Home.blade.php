@@ -18,6 +18,7 @@
     @include('partials/cards', ['cards' => $lunghe, 'title' => 'Le lunghe']);
     @include('partials/cards', ['cards' => $corte, 'title' => 'Le corte']);
     @include('partials/cards', ['cards' => $cortissime, 'title' => 'Le cortissime']);
+    
     {{-- <h2>Le lunghe</h2>
     <div class="cards"> --}}
         {{-- stampo ogni singolo elemento dell' array lunghe --}}
