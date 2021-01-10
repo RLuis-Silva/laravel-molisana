@@ -9,7 +9,7 @@ body {
   flex-direction: column;
   background-color: white;
   color: black;
-  font: sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 img {

@@ -1,6 +1,6 @@
 {{-- HEADER DEL SITO --}}
 <header>
-    <a href="/">
+    <a href="{{route('home')}} ">
         <img class="brand" src="{{ asset('img/logo.png') }}" alt="logo molisana">
     </a>
     

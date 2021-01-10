@@ -3,7 +3,8 @@ body{
     flex-direction: column;
     background-color: white;
     color: $colore-testo;
-    font: $font-primario;
+    // font: $font-primario;
+    font-family: $font-primario;
 }
 
 img{
