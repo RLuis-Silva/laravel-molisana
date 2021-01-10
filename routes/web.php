@@ -157,9 +157,9 @@ Route::get('/', function () {
 
     // per ottenere la stampa dei prodotti divisi: associo la chiave con l'array
     return view('home', ['lunghe' => $lunghe, 'corte' => $corte, 'cortissime' => $cortissime]);
-});
+}) -> name('home');
 
 
 Route::get('/news', function () {
     return view('news');
-});
+}) -> name('news');
