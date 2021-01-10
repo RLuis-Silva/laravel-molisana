@@ -15,10 +15,13 @@
         @endforeach
     </div> --}}
 
-    <h2>Le lunghe</h2>
-    <div class="cards">
+    @include('partials/cards', ['cards' => $lunghe, 'title' => 'Le lunghe']);
+    @include('partials/cards', ['cards' => $corte, 'title' => 'Le corte']);
+    @include('partials/cards', ['cards' => $cortissime, 'title' => 'Le cortissime']);
+    {{-- <h2>Le lunghe</h2>
+    <div class="cards"> --}}
         {{-- stampo ogni singolo elemento dell' array lunghe --}}
-        @foreach ($lunghe as $card)
+        {{-- @foreach ($lunghe as $card)
             <div class="card">
                 <img src=" {{$card['src']}} " alt="img-prodotto">
                 <h3>{{$card['titolo']}}</h3>
@@ -28,9 +31,9 @@
     </div>
 
     <h2>Le corte</h2>
-    <div class="cards">
+    <div class="cards"> --}}
         {{-- stampo ogni singolo elemento dell' array corte --}}
-        @foreach ($corte as $card)
+        {{-- @foreach ($corte as $card)
             <div class="card">
                 <img src=" {{$card['src']}} " alt="img-prodotto">
                 <h3>{{$card['titolo']}}</h3>
@@ -40,15 +43,15 @@
     </div>
 
     <h2>Le cortissime</h2>
-    <div class="cards">
+    <div class="cards"> --}}
         {{-- stampo ogni singolo elemento dell' array cortissime --}}
-        @foreach ($cortissime as $card)
+        {{-- @foreach ($cortissime as $card)
             <div class="card">
                 <img src=" {{$card['src']}} " alt="img-prodotto">
                 <h3>{{$card['titolo']}}</h3>
                 <a href="{{route('prodotti', $card['id'])}}">Vedi prodotto</a>      
             </div>    
         @endforeach
-    </div>
+    </div> --}}
 </div>
 @endsection 
