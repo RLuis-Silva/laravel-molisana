@@ -14,11 +14,13 @@
     <body>
         <!-- inserisco il partial: HEADER -->
         @include('partials.header')
+        
+        <!-- sezione MAIN -->
         <main>
             @yield('contenuto-main')
         </main>
         
         <!-- inserisco il partial:FOOTER -->
-        @include('partials/footer')
+        {{-- @include('partials/footer') --}}
     </body>
 </html>

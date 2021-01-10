@@ -5,9 +5,16 @@
 @import 'partials/utilities';
 @import 'partials/commons';
 
+//header
+@import 'partials/header';
 
 // sezione
 @import 'partials/cards';
 
+//sezione: PRODOTTI
+@import 'partials/prodotti';
+
+// sezione: NEWS
+@import 'partials/news';
 // footer
 @import 'partials/footer';
