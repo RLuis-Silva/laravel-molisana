@@ -5,7 +5,9 @@
     </a>
     
     <nav>
-        <li><a href=" {{route('home')}} ">HOME</a></li>
-        <li><a href=" {{route('news')}} ">NEWS</a></li>
+        <ul>
+            <li><a href=" {{route('home')}} ">HOME</a></li>
+            <li><a href=" {{route('news')}} ">NEWS</a></li>
+        </ul>
     </nav>
 </header>

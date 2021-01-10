@@ -1,5 +1,5 @@
 body{
-    background-color: $colore-background;
+    background-color: white;
     color: $colore-testo;
     font: $font-primario;
 }
@@ -12,4 +12,19 @@ header img{
 
 header{
     text-align: center;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: center;    
+}
+
+header nav ul li{
+    margin-right: 10px;
+    list-style: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: $colore-testo;
 }

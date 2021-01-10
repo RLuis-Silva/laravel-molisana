@@ -5,8 +5,8 @@
 }
 
 body {
-  background-color: orange;
-  color: white;
+  background-color: white;
+  color: black;
   font: sans-serif;
 }
 
@@ -16,6 +16,21 @@ header img {
 
 header {
   text-align: center;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul li {
+  margin-right: 10px;
+  list-style: none;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: black;
 }
 
 .cards {
